@@ -4,10 +4,10 @@ import App from './App.jsx'
 import './index.css'
 
 
-import Greeting from './greeting.jsx'
+import Greeting from './Greeting.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Greeting />
+    <App />
   </StrictMode>,
 )
