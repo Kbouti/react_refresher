@@ -4,7 +4,6 @@ import App from './App.jsx'
 import './index.css'
 
 
-import Greeting from './Greeting.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
