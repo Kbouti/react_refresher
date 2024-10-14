@@ -6,6 +6,12 @@ import "./App.css";
 // const App = () => <h1>Our First Test</h1>;
 
 const App = () => {
+  const logSomething = () => {
+    console.log(`This should be logged in the console`);
+  };
+
+  logSomething();
+
   return (
     <section>
       <h1 role="heading">Our First Test</h1>
