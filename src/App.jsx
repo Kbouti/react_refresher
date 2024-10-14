@@ -1,16 +1,18 @@
-// import { useState } from 'react'
+import { useState, useEffect } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import "./App.css";
 
-// const App = () => <h1>Our First Test</h1>;
 
 const App = () => {
-  const logSomething = () => {
-    console.log(`This should be logged in the console`);
-  };
 
-  logSomething();
+  useEffect(() => {
+    const logSomething = () => {
+      console.log(`This should be logged in the console`);
+    };
+  
+    logSomething();
+  })
 
   return (
     <section>
