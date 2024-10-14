@@ -16,5 +16,10 @@ describe("App component", () => {
   });
 // Ok so we've successfully tested that these two elements exist.
 
+  it("calls our logSomething function", () => {
+    render(<App />);
+    // screen.debug();
+    expect(App().toBeCalled());
+  })
 
 });
